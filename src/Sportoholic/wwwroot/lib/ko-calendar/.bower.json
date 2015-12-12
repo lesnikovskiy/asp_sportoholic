@@ -1,0 +1,32 @@
+{
+  "name": "ko-calendar",
+  "homepage": "http://makerstudios.github.io/ko-calendar/demo/",
+  "authors": [
+    "Jacob Kelley <jakie8@gmail.com>"
+  ],
+  "description": "A simple datetime picker built with knockout",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "main": [
+    "dist/ko-calendar.min.js",
+    "dist/ko-calendar.min.css"
+  ],
+  "dependencies": {
+    "knockout": "http://cdnjs.cloudflare.com/ajax/libs/knockout/3.2.0/knockout-min.js"
+  },
+  "version": "0.2.11",
+  "_release": "0.2.11",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.2.11",
+    "commit": "29b7616e58144e4c25cadefccfa70297e424d4ae"
+  },
+  "_source": "git://github.com/MakerStudios/ko-calendar.git",
+  "_target": "~0.2.11",
+  "_originalSource": "ko-calendar",
+  "_direct": true
+}

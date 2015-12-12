@@ -1,0 +1,29 @@
+<h2>Home</h2>
+
+<p data-bind='text: message'></p>
+<div class="table-responsive">
+	<table class="table">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Date</th>
+				<th>Description</th>
+				<th>Weight</th>
+				<th>Walking</th>
+				<th>Workout</th>
+			</tr>
+		</thead>
+		<tbody data-bind="foreach: sportItems">
+			<tr>
+				<td data-bind="text: id"></td>
+				<td data-bind="text: date"></td>
+				<td data-bind="text: description"></td>
+				<td data-bind="text: weight"></td>
+				<td data-bind="text: walking"></td>
+				<td data-bind="text: workout"></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<button data-bind='click: doSomething'>Click me</button>

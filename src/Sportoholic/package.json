@@ -1,0 +1,40 @@
+{
+  "name": "ASP.NET",
+  "version": "0.0.0",
+  "browserify": {
+    "transform": [
+      "browserify-shim"
+    ]
+  },
+	"browser": {
+		"jquery": "./wwwroot/lib/jquery/dist/jquery.min.js",
+		"knockout": "./wwwroot/lib/knockout/dist/knockout.js",
+		"ko-calendar": "./wwwroot/lib/ko-calendar/dist/ko-calendar.min.js"
+	},
+	"browserify-shim": {
+		"jquery": "$",
+		"knockout": "ko",
+		"koCalendar": "ko-calendar"
+	},
+  "devDependencies": {
+    "babel-cli": "^6.1.4",
+    "babel-core": "^6.1.4",
+    "babel-preset-es2015": "^6.1.18",
+    "babelify": "^7.2.0",
+    "browserify": "^4.2.1",
+    "browserify-shim": "^3.8.11",
+    "gulp": "3.8.11",
+    "gulp-concat": "2.5.2",
+    "gulp-cssmin": "0.1.7",
+    "gulp-rename": "1.2.2",
+    "gulp-uglify": "1.2.0",
+    "ko-calendar": "^0.7.5",
+    "rimraf": "2.2.8",
+    "stringify": "^2.2.0",
+    "vinyl-source-stream": "^0.1.1"
+  },
+  "dependencies": {
+    "crossroads": "^0.12.2",
+    "hasher": "^1.2.0"
+  }
+}
